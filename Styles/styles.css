@@ -9,8 +9,8 @@ body {
 }
 
 .site-title {
-  color: #000000);
-  font-size: 45px;
+  color: #000000;
+  font-size: 50px;
   font-style: normal;
   font-weight: 700;
 }
@@ -39,6 +39,17 @@ ul li {
 }
 
 ul li a {
+  font-weight: 700;
   text-decoration: none;
   color: #474747;
+}
+/* header related style */
+
+.header-section{
+  background: #FFF8F3;
+}
+
+.letter-r{
+  color:#FD6E0A;
+
 }
