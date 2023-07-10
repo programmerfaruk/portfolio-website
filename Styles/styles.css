@@ -1,55 +1,42 @@
-body {
+body{
   font-family: 'Open Sans', sans-serif;
 }
-
-.nav-bar {
+.navbar{
   display: flex;
+  gap: 30px;
   justify-content: space-between;
-  align-items: center;
-}
+  padding: 10px 50px;
+  background-color: #FFF8F3;
 
-.site-title {
-  color: #000000;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 700;
 }
-
-.btn-global {
-  color: white;
-  ;
-  border-radius: 5px;
-  background: #FD6E0A;
-  border-style: none;
-  padding: 15px 35px;
-  color: #FFF;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-}
-
-nav>ul {
-  display: flex;
-  align-items: center;
-}
-
-ul li {
+.menu{
   list-style: none;
-  margin-right: 20px;
-}
-
-ul li a {
+  display: flex;
+  gap: 40px;
+  font-size: large;
   font-weight: 700;
+  align-items: center;
+
+}
+.btn-primary{
+  padding: 15px 25px;
+  background-color: #FD6E0A;
+  font-size: large;
+  font-weight: 900;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+}
+.navbar a {
   text-decoration: none;
-  color: #474747;
-}
-/* header related style */
 
-.header-section{
-  background: #FFF8F3;
 }
-
+.navbar a:hover{
+  color: red;
+}
+.site-title{
+  font-size: 45px;
+}
 .letter-r{
-  color:#FD6E0A;
-
+  color: #FD6E0A;
 }
