@@ -12,17 +12,17 @@ body{
 .menu{
   list-style: none;
   display: flex;
-  gap: 40px;
+  gap: 60px;
   font-size: large;
   font-weight: 700;
   align-items: center;
 
 }
 .btn-primary{
-  padding: 15px 25px;
+  padding: 10px 20px;
   background-color: #FD6E0A;
-  font-size: large;
-  font-weight: 900;
+  font-size: 20px;
+  font-weight: 900px;
   border: 0px;
   border-radius: 5px;
   color: white;
@@ -35,8 +35,24 @@ body{
   color: red;
 }
 .site-title{
-  font-size: 45px;
+  font-size: 50px;
 }
 .letter-r{
   color: #FD6E0A;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 500px;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: left bottom ;
+}
+.banner-description{
+  width: 50%;
+}
+.pro-pic{
+  padding-left: 200px;
+  
 }
